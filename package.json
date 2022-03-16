@@ -9,17 +9,23 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy-site": "ionic build && firebase deploy --only hosting:afi-journal"
   },
   "private": true,
   "dependencies": {
     "@angular/common": "~13.2.2",
     "@angular/core": "~13.2.2",
+    "@angular/fire": "^7.2.1",
     "@angular/forms": "~13.2.2",
     "@angular/platform-browser": "~13.2.2",
     "@angular/platform-browser-dynamic": "~13.2.2",
     "@angular/router": "~13.2.2",
     "@ionic/angular": "^6.0.0",
+    "firebase": "^9.4.0",
+    "ngx-quill": "^16.2.0",
+    "quill": "^1.3.7",
+    "rxfire": "^6.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"

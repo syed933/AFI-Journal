@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "afi-journal"
+  },
+  "targets": {
+    "afi-journal": {
+      "hosting": {
+        "afi-journal": [
+          "afi-journal"
+        ]
+      }
+    }
+  }
+}
